@@ -28,3 +28,112 @@ header ul{
 #search-logo{
     margin-right: 30px;
 }
+
+/*********First Page************/
+
+.first-page{
+    width: 100%;
+    background-image: url('/Illuminarted/images/Banner\ Image.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.about-btn{
+    width: 706px;
+    height: 187px;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+/*********Second Page**********/
+
+.second-page{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #306B34;
+}
+
+.text-container{
+    width: 311px;
+    height: 381px;
+    margin-left: 100px;
+}
+
+.black-header{
+    font-family: 'Brandon Grotesque';
+    font-size: 40px;
+}
+.white-p{
+    color: white;
+    margin-top: 50px;
+    font-style: italic;
+    word-spacing: 0.5rem;
+}
+
+
+/**********Third Page*********/
+.third-page{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.third-page-p{
+    width: 696px;
+    margin-top:100px;
+}
+
+.black-btn{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    width: 148px;
+    height: 48px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+/**********Footer**********/
+
+footer{ 
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 76px;
+    background-color: #306B34;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav{
+    width:275px;
+}
+
+footer ul{
+    display: flex;
+}
+
+footer li{
+    margin-left: 25px;
+}
+
+footer img{
+    margin-left:15px
+}
